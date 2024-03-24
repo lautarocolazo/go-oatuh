@@ -1,49 +1,35 @@
-# Project go-oauth
+# Overview
 
-One Paragraph of project description goes here
+With this project I wanted to build a website with OAuth2
 
-## Getting Started
+I built a website where you can login through Google
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+I wanted to learn more about the real-world application auth systems.
 
-## MakeFile
+[Software Demo Video](https://www.loom.com/share/9ceefa91c0ca4c7d992fa52a6cf68245?sid=51f4f1fe-7f74-4f71-b5cb-e6c0609b9ab0)
 
-run all make commands with clean tests
-```bash
-make all build
-```
+# Development Environment
 
-build the application
-```bash
-make build
-```
+Dev env
 
-run the application
-```bash
-make run
-```
+- neovim
+- tmux
+- Linux
+- git
 
-Create DB container
-```bash
-make docker-run
-```
+Programming language and libraries
 
-Shutdown DB container
-```bash
-make docker-down
-```
+- Go
+- React
+- Docker & docker compose
+- PostgreSQL
+- goth (for OAuth2 handling)
 
-live reload the application
-```bash
-make watch
-```
+# Useful Websites
 
-run the test suite
-```bash
-make test
-```
+- [goth's docs](https://github.com/markbates/goth)
 
-clean up binary from the last build
-```bash
-make clean
-```# go-oatuh
+# Future Work
+
+- Improve UI
+- More providers such as Microsoft, Discord, etc.
