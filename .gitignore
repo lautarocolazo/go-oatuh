@@ -24,3 +24,6 @@ tmp/
 
 # .env file
 .env
+
+# credentials
+client_secret_oauth.json
